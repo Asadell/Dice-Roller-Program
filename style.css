@@ -1,0 +1,39 @@
+html {
+  background-color: beige;
+}
+
+.container {
+  background-color: azure;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#numOfDice {
+  text-align: center;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(240, 100%, 80%);
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+button:hover {
+  background-color: hsl(240, 100%, 70%);
+}
+
+button:active {
+  background-color: hsl(240, 73%, 65%);
+}
+
+#diceResult {
+  font-size: 15px;
+  columns: red ;
+}
